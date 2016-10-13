@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.springframework: INFO
+    com.suncl: debug
+
+### mysql config
+spring:
+  datasource:
+    dbcp:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql://192.168.18.129:3306/test1
+     username: root
+     password: 123456
